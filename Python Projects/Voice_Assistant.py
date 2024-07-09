@@ -17,7 +17,6 @@ import smtplib
 import ctypes
 import time
 import requests
-import shutil
 from clint.textui import progress
 from ecapture import ecapture as ec
 from bs4 import BeautifulSoup
@@ -54,7 +53,6 @@ def username():
 	uname = takeCommand()
 	speak("Welcome")
 	speak(uname)
-	columns = shutil.get_terminal_size().columns
 	print("Welcome", uname)
 	speak("How can i Help you?")
 
