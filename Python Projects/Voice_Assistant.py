@@ -213,7 +213,7 @@ if __name__ == '__main__':
 			webbrowser.open(f"https://maps.google.com/?q={location}")
 
 		elif "take a photo" in query:
-			speak("Camera is ready is with Friday, say cheeeeeeeese")
+			speak("Camera is ready with Friday, say cheeeeeeeese")
 			ec.capture(0, "Friday Camera ", "img.jpg")
 
 		elif "restart" in query:
